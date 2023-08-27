@@ -3,7 +3,7 @@ import re
 import pytest
 from pytest_django.asserts import assertTemplateUsed
 
-from conftest import try_get_url
+from tests.conftest import try_get_url
 
 
 @pytest.mark.parametrize(
